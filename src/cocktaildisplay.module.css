@@ -1,0 +1,23 @@
+.cocktailName {
+    font-family: OutrunFuture;
+    margin-bottom: 25px;
+    color: #2DE2E6;
+}
+
+.cocktailImage {
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 690px) {
+    .cocktailImage {
+        height: 30vh;
+        width: auto;
+    }
+}

@@ -1,0 +1,12 @@
+.login {
+    color: #023788;
+    margin-bottom: 30px;
+    font-family: OutrunFuture;
+    font-size: 20px;
+}
+
+@media (max-width: 690px) {
+    .login {
+        font-size: 10px;
+    }
+}

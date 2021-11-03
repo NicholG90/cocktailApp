@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.textInput {
+    width: 500px;
+    padding: 8px 8px 8px 8px;
+}
+
+.submit {
+    font-family: OutrunFuture;
+    font-size: 35px;
+    color: #FF3864;
+    background: none;
+}
+
+.submit:hover {
+    color: #FF6C11;
+}
+
+@media (max-width: 690px) {
+    .textInput {
+        width: 85vw;
+    }
+}

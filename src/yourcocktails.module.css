@@ -1,0 +1,23 @@
+button:hover {
+    color: #FF6C11;
+}
+
+.cocktailList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #f9C80E;
+}
+
+.clickCocktail {
+    font-size: 20px;
+    font-family: OutrunFuture;
+    color: #2DE2E6;
+}
+
+.deleteCocktail {
+    color: #FD1D53;
+}
+
