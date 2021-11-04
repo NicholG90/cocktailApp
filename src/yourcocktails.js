@@ -20,7 +20,7 @@ function YourCocktails() {
       setIsLoading(false)
       if (data === null)
         setListItems(
-        <h2>Save some Cocktails!</h2>
+        <h2 className={styles.saveCocktails}>Save some Cocktails!</h2>
       )
       else 
       setListItems(Object.entries(data).map(([key,value]) =>

@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import { db } from './base';
 import { AuthContext } from "./Auth"
 import SaveRedirect from './saveredirect';
+import styles from './savecocktail.module.css'
 
 
 
@@ -21,7 +22,7 @@ function SaveCocktail (props) {
         <SaveRedirect />
     );
     return (
-        <button  onClick={handleClick}>Save this Cocktail</button>
+        <button  onClick={handleClick} className={styles.saveCocktail}>Save this Cocktail</button>
     );
 }
 

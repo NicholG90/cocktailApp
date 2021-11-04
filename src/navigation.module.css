@@ -55,6 +55,7 @@ footer {
         margin:auto;
         width: 45px;
         height: 45px;
+        color: #FF6C11;
     }
     .navList {
         display: flex;

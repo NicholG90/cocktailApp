@@ -19,11 +19,30 @@ export const auth = firebase.auth();
 const googleProvider = new firebase.auth.GoogleAuthProvider()
 export const signInWithGoogle = () => {
   auth.signInWithPopup(googleProvider).then((res) => {
-    console.log(res.user)
   }).catch((error) => {
     console.log(error.message)
   })
 }
+
+const twitterProvider = new firebase.auth.TwitterAuthProvider()
+
+export const signInWithTwitter = () => {
+  auth.signInWithPopup(twitterProvider).then((res) => {
+  }).catch((error) => {
+    console.log(error.message)
+  })
+}
+
+const facebookProvider = new firebase.auth.FacebookAuthProvider()
+
+export const signInWithFacebook = () => {
+  auth.signInWithPopup(facebookProvider).then((res) => {
+  }).catch((error) => {
+    console.log(error.message)
+  })
+}
+
+
 
 export const logOut = () => {
     auth.signOut().then(()=> {

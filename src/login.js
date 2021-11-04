@@ -1,7 +1,9 @@
 import React, { useContext } from "react";
-import { signInWithGoogle } from "./base";
+import { signInWithGoogle, signInWithTwitter, signInWithFacebook } from "./base";
 import { AuthContext } from "./Auth.js";
 import { Redirect } from 'react-router-dom'; 
+import { FacebookLoginButton, GoogleLoginButton, TwitterLoginButton } from "react-social-login-buttons";
+import styles from './login.module.css';
 
 
 function Login() {
@@ -13,11 +15,10 @@ function Login() {
   }
 
   return (
-      <div className="login-buttons">
-        <button className="login-provider-button" onClick={signInWithGoogle}>
-        <img src="https://img.icons8.com/ios-filled/50/000000/google-logo.png" alt="google icon"/>
-        <span> Continue with Google</span>
-       </button>
+      <div className={styles.loginButtons}>
+        <GoogleLoginButton onClick={signInWithGoogle} />
+        <FacebookLoginButton onClick={signInWithFacebook} />
+        <TwitterLoginButton onClick={signInWithTwitter} />
       </div>
   )
 }
