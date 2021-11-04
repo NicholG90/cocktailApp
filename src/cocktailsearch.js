@@ -15,7 +15,7 @@ function CocktailSearch() {
 
     async function fetchCocktails() {
       try {
-        const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/${process.env.REACT_APP_COCKTAILDB}/search.php?s=${query}`);
+        const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`);
         const apiData = await response.json();
         setData(apiData.drinks[0]);
         setIsResults(true)

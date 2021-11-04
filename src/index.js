@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fonts/outrun_future.otf';
+import './fonts/outrun_future_bold.otf';
+import './fonts/outrun_future_bold_italic.otf';
+
+
 
 
 ReactDOM.render(

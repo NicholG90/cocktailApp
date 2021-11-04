@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 2px;
 }
 
 code {
@@ -16,5 +17,19 @@ code {
   font-family: "OutrunFuture";
   src: local("OutrunFuture"),
     url("./fonts/outrun_future.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OutrunFutureBold";
+  src: local("OutrunFutureBold"),
+    url("./fonts/outrun_future_bold.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OutrunFutureBoldItalic";
+  src: local("OutrunFutureBoldItalic"),
+    url("./fonts/outrun_future_bold_italic.otf") format("opentype");
   font-weight: normal;
 }

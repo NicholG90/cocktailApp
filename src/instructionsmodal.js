@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import ModalTabs from './modaltabs';
 import styles from './instructionsmodal.module.css'
+import close from './assets/x.svg'
 
 
 function InstructionsModal (props) {
@@ -24,7 +25,9 @@ function InstructionsModal (props) {
         contentLabel="Ingredients Modal"
       >
         <ModalTabs instructions={props.instructions} ingredients={props.ingredients}/>
-        <button onClick={closeModal}>close</button>
+        <button onClick={closeModal}>
+          <img src={close} className={styles.close} alt="Close Button"/>
+        </button>
       </Modal>
     </div>
   );

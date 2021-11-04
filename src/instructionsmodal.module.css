@@ -24,6 +24,7 @@
 .tableStyle {
     font-family: OutrunFuture;
     text-align: center;
+    color: #2DE2E6;
 }
 
 .modal {
@@ -41,7 +42,18 @@
     padding: 30px;
 }
 
+.closeButton {
+    /* margin-top: 20px; */
+    height: 20px;
+    color: #F9C80E;
+    align-items: flex-end;
+}
 
+.instructions {
+    font-family: OutrunFutureBold;
+    color: #023788;
+    letter-spacing: 2px;
+}
 
 @media (max-width: 690px) {
     .modal {

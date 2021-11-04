@@ -3,7 +3,7 @@ import AlcoholSelector from './alcoholselector';
   
 function ChooseACocktail() {
     const [ingredientList, setIngredientList] = useState([]);
-    const [token, setToken] = useState('');
+    const [token] = useState('');
   
     useEffect(() => {
       async function fetchIngredients() {
@@ -19,7 +19,7 @@ function ChooseACocktail() {
       if (!token) {
         fetchIngredients();
       }
-    }, []);
+    });
   
   
     return (

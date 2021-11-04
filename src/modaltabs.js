@@ -11,7 +11,7 @@ const ModalTabs = (props) => (
       <Tab><button className={styles.tabTitle}>Instructions</button></Tab>
       <Tab><button className={styles.tabTitle}>Ingredients</button></Tab>
     </TabList>
-    <TabPanel>
+    <TabPanel className={styles.instructions}>
       {props.instructions}
     </TabPanel>
     <TabPanel>
