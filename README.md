@@ -1,4 +1,4 @@
-Cocktail Selector
+Cocktail Shaker
 =================
 
 A full fledged web app to find, explore, save your favourite cocktails.

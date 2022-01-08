@@ -1,5 +1,5 @@
 import React from "react"
-import cocktail from './cocktail.svg'
+import cocktail from './assets/cocktail.svg'
 
 function Home() {
 
