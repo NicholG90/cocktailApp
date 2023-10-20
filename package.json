@@ -1,0 +1,49 @@
+{
+  "name": "cocktailapp",
+  "version": "1.0.0",
+  "description": "An app to help you choose a cocktail",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholG90/cocktailApp.git"
+  },
+  "author": "Nick Gourlay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholG90/cocktailApp/issues"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.1",
+    "firebase": "^10.5.0",
+    "rc-table": "^7.35.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.7",
+    "react-social-login-buttons": "^3.9.1",
+    "react-tabs": "^6.0.2",
+    "web-vitals": "^3.5.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
