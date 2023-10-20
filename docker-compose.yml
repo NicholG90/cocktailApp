@@ -8,6 +8,7 @@ services:
   cocktail_app:
     container_name: cocktail_app
     image: nginx:latest
+    restart: unless-stopped
     ports:
       - "8085:80"
     volumes:
