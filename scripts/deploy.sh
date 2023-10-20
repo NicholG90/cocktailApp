@@ -15,7 +15,6 @@ npm install
 npm run build
 
 # Move back to the root directory and start the Docker containers
-cd ..
 docker compose up -d
 
 echo "🚀 Application deployed!"
