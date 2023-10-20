@@ -1,12 +1,12 @@
-import React  from "react"
-import { useHistory } from "react-router-dom";
-import styles from './saveredirect.module.css'
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import styles from './saveredirect.module.css';
 
 function SaveRedirect() {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   function handleRedirect() {
-    history.push("/home");
+    navigate('/home');
   }
 
   return (
@@ -14,4 +14,4 @@ function SaveRedirect() {
   );
 }
 
-export default SaveRedirect
+export default SaveRedirect;
