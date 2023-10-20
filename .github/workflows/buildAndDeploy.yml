@@ -41,7 +41,7 @@ jobs:
         run: |
           ssh -o "StrictHostKeyChecking no" root@${{ secrets.VPS_NAME }} "
           ls
-          cd portfolio/scripts
+          cd hostedSites/cocktailApp/scripts
           ls
           bash deploy.sh
           "
